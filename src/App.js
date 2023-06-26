@@ -10,7 +10,6 @@ function App() {
     <Routes>
       <Route path="/" element={<HeaderSection />}>
         <Route index element={<AllProducts />} />
-        <Route path="/all" element={<div>hello</div>} />
       </Route>
     </Routes>
   );

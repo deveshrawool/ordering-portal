@@ -18,3 +18,11 @@ export const getAllSubCategories=(id)=>{
         .catch((error)=>error)
     )
 }
+//https://elredtest.s3.amazonaws.com/reactAssignment/getProduct_<subCategoryId>.json
+export const getProducts=(id)=>{
+    return (
+        axiosInstance.get(`getProduct_${id}.json`)
+        .then((response)=> response)
+        .catch((error)=>error)
+    )
+}

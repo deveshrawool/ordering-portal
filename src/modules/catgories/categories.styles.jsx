@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
+import { Stack } from "@mantine/core";
 
 export const CategoriesContainer= styled.div`
- width: 60vw;
+ width: 90%;
  overflow: auto;
  white-space: nowrap;
 `
@@ -44,4 +45,34 @@ export const SubCategoryConatiner = styled.div`
     display:flex;
     width: 100%;
     flex-wrap: wrap;
+    gap:15px;
 `
+export const ProductListConatiner = styled.div`
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:15px;
+    max-height: 75vh;
+    overflow: auto;
+`
+export const ProductContainer = styled.div`
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width:150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+`
+export const ProductImage = styled.img`
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+
+`
+export const ProductDescription = styled.text`
+    font-size:0.875rem;
+    color:#6e6e6e;
+`
+
+

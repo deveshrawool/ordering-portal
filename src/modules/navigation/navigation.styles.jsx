@@ -11,13 +11,19 @@ width: 100%;
   text-align: left;
   border-radius: 10px;
   min-width: 80%;
-  padding: 5px;
+  padding: 20px;
 `;
 
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 100%;
 `;
+
+export const LogoWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+`
 
 export const NavLinks = styled.div`
   width: 100%;
@@ -27,6 +33,8 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  padding: 10px 15px;
+  padding: 10px 0;
   cursor: pointer;
+  color:"#6E6E6E";
+  text-decoration: none;
 `;
